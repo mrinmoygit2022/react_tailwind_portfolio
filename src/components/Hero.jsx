@@ -1,12 +1,13 @@
 import { LuImport } from "react-icons/lu"
 import benson from "../assets/benson.webp"
 
+
 const Hero = () => {
   return (
     <section>
         <div className="flex flex-col items-center justify-center">
             <h1 className="mt-16 overflow-hidden text-[12vw] font-semibold uppercase leading-none">
-                Mrinmoy <br /> Roy
+                <span className="text-animation" data-text="Mrinmoy">Mrinmoy</span> <br /> Roy
             </h1>
             <div className="mt-8">
                 <a href="/Benson-Langford.pdf"

@@ -1,5 +1,5 @@
 import {
-  FaXTwitter,
+  // FaXTwitter,
   FaGithub,
   FaLinkedin,
   FaFacebook,
@@ -25,7 +25,7 @@ export const LINKS = [
 ];
 
 export const MARQUEE_TEXT =
-  "React, Angular, Node, Javascript, bootstrap 5, Tailwind, HTML5, CSS3, MongoDb,";
+  ", React, Angular, Node, Javascript, bootstrap 5, Tailwind, HTML5, CSS3, MongoDb ";
 
 export const PROJECTS = [
   {
@@ -133,10 +133,6 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaInstagram fontSize={26} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={26} className="hover:opacity-80" />,
-  },
-  {
     href: "https://github.com/mrinmoygit2022/react_tailwind_portfolio",
     icon: <FaGithub fontSize={26} className="hover:opacity-80" />,
   },
@@ -144,6 +140,10 @@ export const SOCIAL_MEDIA_LINKS = [
     href: "https://www.linkedin.com/in/mrinmoy-roy-4686b576/",
     icon: <FaLinkedin fontSize={26} className="hover:opacity-80" />,
   },
+  // {
+  //   href: "https://x.com/",
+  //   icon: <FaXTwitter fontSize={26} className="hover:opacity-80" />,
+  // },
 ];
 
 export const CONTACT = {
